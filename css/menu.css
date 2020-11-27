@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  font-family:  "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+ width: 900px;
+  margin: 0px;
+}
+ul{
+  list-style: none;
+}
+#menu li>a{
+  background-color: red;
+  color: white;
+	font-size: 20px;
+	display: block;
+	padding: 10px 30px 10px 30px;
+	text-shadow: 1px 1px 1px black;
+  text-decoration: none;
+}
+#menu li>a:hover{
+background-color: white;
+	color: black
+	
+}
+#menu>li{
+float: left;
+	text-align: center
+	
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+/*logo*/
+.logo {margin: 0;
+}
